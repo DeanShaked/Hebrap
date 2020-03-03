@@ -1,6 +1,6 @@
 # Hebrap
 Hebrew Words Generator.
-http://hebrap.com
+Link - http://hebrap.com
 
 # What I Learned
 * Manage & Host a website on a domain.
