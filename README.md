@@ -1,2 +1,7 @@
 # Hebrap
-Hebrew Words Generator
+Hebrew Words Generator.
+
+# What I Learned
+* Manage & Host a website on a domain.
+* Implementing AJAX into a live project.
+* Positioning & Coloring concepts.
