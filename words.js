@@ -1,16 +1,21 @@
 ﻿var interval;
 var randomNum;
 var refresh;
+var xhttp = new XMLHttpRequest();
 
 function inter(num) {
 	refresh = num*1000;
 	
 }
 function newSubject(str) {
-	clearInterval(interval);
-	randomNum = Math.floor(Math.random()*(str.length));
-	document.getElementById('generator').innerHTML = str[randomNum];
-	interval = setInterval(() => newSubject(str),refresh);
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+     			clearInterval(interval);
+			randomNum = Math.floor(Math.random()*(str.length));
+			document.getElementById('generator').innerHTML = str[randomNum];
+			interval = setInterval(() => newSubject(str),refresh);
+		}
+	};
 }
 
 
