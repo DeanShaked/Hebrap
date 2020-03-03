@@ -1,0 +1,138 @@
+*{
+	background:#363333;
+}
+
+.a {
+  box-shadow: 0px 0px 12px -2px rgba(1,1,1,1);
+  width:auto;
+  padding:1%;
+  height:auto;
+  background: border-box;
+  border-radius:5px;
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 16px;
+  font-weight:bold;
+  font-family:sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.main{
+	position:absolute;
+	width:100%;
+	min-width:auto;
+	height:auto;
+}
+
+.sub-main {
+	width:95%;
+	min-width:auto;
+    text-align: center;
+    text-decoration-line: none;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+    font-family: cursive;
+	height:auto;
+}
+.refresh{
+	position:relative;
+	top:20%;
+	background:bb86fc;
+	text-align: center;
+    cursor: pointer;
+    font-size:20px;
+    width:50px;
+    margin:10px;
+    outline: none;
+    border: none;
+    border-radius:5px;
+    box-shadow: 0 5px;
+}
+.span1 {
+	background: -webkit-linear-gradient(left,#DF3100,#FB9C01,#FFED00,#00D51B,#34EBFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	font-size:20px;
+	font-weight:bold;
+	width:auto;
+	font-family:monospace;
+	border-radius:5px;
+	padding:5px;
+	
+}
+.refresh-container{
+	position:relative;
+	left:6%;
+	display:inline-block;
+	align:center;
+	margin:0 auto;
+	width:100%;
+	min-width:auto;
+}
+
+.generator{
+	position:relative;
+	margin-top:5%;
+	margin-bottom:5%;
+	width:100%;
+	min-width:auto;	
+	color:#F8F8FF;
+	text-align:center;
+	font-weight:bold;
+	font-size:100px;
+	font-family: sans-serif;
+	height:auto;
+}
+
+.subjects{
+	position:relative;
+	left:20%;
+	display:inline-block;
+	align:center;
+	margin:0 auto;
+	width:60%;
+	min-width:auto;
+	
+}
+
+.subject{
+    text-align: center;
+    cursor: pointer;
+	font-weight:bold;
+    font-size:30px;
+    width:200px;
+    margin:10px;
+    padding:20px;
+    border-radius:5px;
+	border-color:transparent;
+	border:none;
+    box-shadow: 0 5px;
+	color:blueviolet;
+}
+
+/* buttons functions*/
+
+.subject:hover, .refresh:hover{
+    opacity: 1;
+}
+
+.subject:active{
+	box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+.refresh:active{
+    box-shadow: 0 5px;
+    transform: translateY(4px);
+}
+
+.subject:focus{
+    box-shadow: 0 10px;
+	transform: translateY(4px);
+}
+
+.refresh:focus{
+    box-shadow: 0 10px;
+    transform: translateY(2px);
+}
+
