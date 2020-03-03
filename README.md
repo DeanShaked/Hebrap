@@ -1,5 +1,5 @@
 # Hebrap
-Hebrew Words Generator
+Hebrew Words Generator :
 http://hebrap.com
 
 # What I Learned
